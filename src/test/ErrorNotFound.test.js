@@ -5,7 +5,7 @@ jest.mock('react-router-dom', () => ({
     useRouteError : jest.fn()
 }))
 
-test('renders ErrorNotFound', () => {
+test('renders ErrorNotFound components', () => {
     render(<ErrorNotFound />);
     
     const linkElement = screen.getByText(/Sorry, an unexpected error has occurred./i);

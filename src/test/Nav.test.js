@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import Nav from '../components/Nav';
 
-test('renders Nav checks components', () => {
+test('renders Nav components', () => {
     render(<Nav />);
 
     const Element1 = screen.getByText('Error');

@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import IndexRoute from '../components/IndexRoute';
 
-test('renders IndexRoute checks carousel', () => {
+test('renders IndexRoute components', () => {
     render(<IndexRoute />);
 
     const activeImage1 = screen.getByAltText('Test1');
